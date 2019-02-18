@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "DancingScript-Regular";
+  src: url("DancingScript-Regular.otf");
+}
+
+header
+{
+background-color: #5b7989;
+border-radius: 10px;
+padding: 10px 0;
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+height: 100px;
+text-shadow: 2px 2px 10px #02010a;
+font-family: "DancingScript-Regular";
+}
+
+#Comenzandolafotografia
+{
+color: white;
+width: 70%;
+text-indent: 15px;
+}
+#menu
+{
+padding-top: 80px;
+width: 30%;
+font-size: 18px;
+}
+#menu a {
+  text-decoration: none;
+  color: white;
+}
+section
+{
+background-color: #82c3a6;
+width: 100%;
+height: 400px;
+display: flex;
+justify-content: center;
+}
+section img
+{
+  box-shadow: 2px 2px 10px #02010a;
+  height: 90%;
+  margin-top: 1%;
+}
+article
+{
+background-color: #d5c75f;
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+}
+article #imagen img
+{
+box-shadow: 2px 2px 10px #02010a;
+border: 2px
+transition: all 1s;
+}
+
+article #imagen a
+{
+ color: black;
+}
+article #imagen img:hover{
+transform: rotate(10deg);
+}
+article #imagendos img
+{
+box-shadow: 4px 4px 10px #02010a;
+transition: all 1s;
+}
+
+article #imagendos a
+{
+  color: black;
+}
+article #imagendos img:hover
+{
+transform: translate(20px,-5px);
+}
+
+footer{
+background-color: #C6d5c5;
+border-radius: 0 0 10px 10px;
+width: 100%;
+}
+
+.contenedor{
+display: flex;
+justify-content: space-around;
+font-family: "DancingScript-Regular"
+}
+
+.contacto{
+width: 100%:
+}
+.condiciones
+{
+width: 100%:
+}
+.redes{
+width: 510%:
+}
+.copy {
+width: 100%:
+}
+
+@media screen and (max-widht:900px)
+{body {width:900px}
+}
+
+@media screen and (min-width:899px)
+{body { width:100%}
+}
+@media screen and (max-widht:900px)
+{footer {width:900px}
+}
+
+@media screen and (min-width:899px)
+{footer { width:100%}
+}
+
+.contenedorpaisajes{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.contenedorretratos{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+
+.bloque1 {
+  -webkit-filter: blur(10px); /* Safari */;
+  filter: blur(10px);
+}
+
+.bloque2 {
+filter: grayscale(100%);
+}
+.bloque3 {
+  -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%);
+}
+.bloque4 {
+filter: grayscale(100%);
+}
+.bloque5 {
+
+}
+.bloque6 {
+filter: grayscale(100%);
+}
